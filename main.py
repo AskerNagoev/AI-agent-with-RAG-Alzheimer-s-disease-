@@ -82,7 +82,8 @@ with st.sidebar:
                 """
                 st.markdown(html_link, unsafe_allow_html=True)
     else:
-        st.info("There is no sources for the current question.")
+        st.info("There are no sources for the current question.")
     
     st.markdown("---")
+
     st.button("🗑️ Clear chat", use_container_width=True, on_click=clear_chat)
